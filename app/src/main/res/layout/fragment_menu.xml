@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Menu.MenuFragment">
+
+    <Button
+        android:id="@+id/btn_Breakfast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+        android:background="@color/colorCyan"
+        android:text="@string/breakfast" />
+    <Button
+        android:id="@+id/btn_Lunch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+        android:background="@color/colorGold"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:text="@string/_lunch" />
+    <Button
+        android:id="@+id/btn_Dinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorBlack"
+        android:background="@color/colorOrange"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="@string/dinner" />
+    <Button
+        android:id="@+id/btn_Snack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorGreen"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="@string/snack" />
+
+    <Button
+        android:id="@+id/btn_Dessert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPink"
+        android:text="@string/dessert"
+        android:textAllCaps="false"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp" />
+
+</LinearLayout>

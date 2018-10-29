@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:fillViewport="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        tools:context="androidproject.example.com.food.Login.RegisterActivity"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+        <requestFocus/>
+
+        <EditText
+            android:id="@+id/reg_fullname"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:ems="10"
+            android:background="@drawable/edittext_background"
+            android:padding="8dp"/>
+        <EditText
+            android:id="@+id/reg_email"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:ems="10"
+            android:padding="8dp"
+            android:background="@drawable/edittext_background"/>
+        <EditText
+            android:id="@+id/reg_pass"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:padding="8dp"
+            android:ems="10"
+            android:background="@drawable/edittext_background"/>
+
+        <EditText
+            android:id="@+id/reg_cpass"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:padding="8dp"
+            android:ems="10"
+            android:background="@drawable/edittext_background"/>
+
+        <EditText
+            android:id="@+id/reg_mobile"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile"
+            android:ems="10"
+            android:inputType="number"
+            android:padding="8dp"
+            android:background="@drawable/edittext_background"/>
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/buttonshape"
+            style="@style/Widget.AppCompat.Button.Colored"
+            />
+    </LinearLayout>
+</ScrollView>

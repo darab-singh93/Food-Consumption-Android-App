@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">FC</string>
+    <string name="title_restaurant">Menu</string>
+    <string name="title_ediary">E-Diary</string>
+    <string name="title_user">User Info</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="_lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="snack">Snack</string>
+    <string name="dessert">Dessert</string>
+    <string name="item1">Item 1</string>
+    <string name="item2">Item 2</string>
+    <string name="item3">Item 3</string>
+    <string name="item4">Item 4</string>
+    <string name="indiviual">Enter indivisual item for: </string>
+    <string name="savetodiarry">Save to Diary</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="text_hello">Hello,</string>
+    <string name="text_title">List of Users</string>
+    <string name="text_accounts">List of Users</string>
+    <string name="location">Location</string>
+    <string name="save_break">Location</string>
+    <string name="date_break">Date</string>
+    <string name="date_dessert">Date</string>
+    <string name="invalid_email">Enter Valid Email</string>
+    <string name="invalid_password">Enter Valid Password</string>
+    <string name="invalid_confirm_password">Password Does not Matched</string>
+    <string name="invalid_phone">Enter Mobile No.</string>
+    <string name="invalid_name">Empty</string>
+    <string name="invalid_password_reg">Password should min.8 characters</string>
+    <string name="invalid_item">Add at least an item.</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
